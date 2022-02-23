@@ -4,9 +4,11 @@ import domain.Exercise;
 
 public class TestResult {
 
-    public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+    public static void main(String[] args)
+    {
+        int n = 100;
+        System.out.print("Following are the prime numbers in range of 0 to " + n + ": ");
+        String primeNumbers = Exercise.Calculate(n);
+        System.out.print(primeNumbers);
     }
 }
